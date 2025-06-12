@@ -183,8 +183,10 @@ table {
     flex-wrap: wrap;
 }
 
-.card__texto img {
+.card__texto i {
     cursor: pointer;
+    width: 2rem;
+    text-align: center;
 }
 
 .card__descricao {
