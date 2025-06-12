@@ -8,7 +8,7 @@ Projeto de aplicação web para Catálogo de monstros de RPG utilizando a lingua
 
 ### Imagem da página principal
 
-*Em breve*
+![image](https://github.com/user-attachments/assets/9e05eb7b-6874-4b15-9de4-a1ea2db54b83)
 
 ### Créditos
 
