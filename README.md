@@ -12,7 +12,7 @@ Projeto de aplicação web para Catálogo de monstros de RPG utilizando a lingua
 
 ### Créditos
 
-- Template da aplicação criado pela Alura e editado por mim
+- Template da aplicação criado pela Alura e editado por mim - [Link](https://github.com/alura-cursos/alura_space/tree/aula_5)
 
 - HTML da Logo feito por Google Gemini e editado por mim
 
