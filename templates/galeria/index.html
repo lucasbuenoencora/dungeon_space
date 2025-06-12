@@ -1,0 +1,163 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ca8038b245.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dungeon Space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metamorphous:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/styles/style.css' %}">
+</head>
+
+<body class="bg-gradient-to-br from-stone-600 to-stone-900">
+    <div class="pagina-inicial">
+        <header class="cabecalho">
+            <!-- Contêiner principal da logo, com bordas arredondadas e sombra -->
+            <div class="bg-gradient-to-br from-zinc-700 to-zinc-900 p-6 rounded-xl shadow-2xl">
+                <!-- Parte "Dungeon" da logo -->
+                <h1 class="logo-text text-4xl font-bold mb-2">
+                    Dungeon Space
+                </h1>
+            </div>
+            <div class="cabecalho__busca">
+                <div class="busca__fundo">
+                    <input class="busca__input" type="text" placeholder="O que você procura?">
+                    <i class="fas fa-search busca__icone" alt="ícone de busca"></i>
+                </div>
+            </div>
+        </header>
+        <main class="principal">
+            <section class="menu-lateral">
+                <nav class="menu-lateral__navegacao">
+                    <a href="#"><i class="fas fa-dungeon fa-1x"></i> Home</a>
+                    <a href="#"><i class="fas fa-arrows-to-eye fa-1x"></i> Mais procurados</a>
+                    <a href="#"><i class="fas fa-star fa-1x"></i> Novos</a>
+                    <a href="#"><i class="fas fa-lightbulb fa-1x"></i> Surpreenda-me</a>
+                </nav>
+            </section>
+            <section class="conteudo">
+                <section class="banner">
+                    <img class="banner__imagem" src="{% static '/assets/imagens/Banner.png' %}" alt="banner Alura Space">
+                    <h1 class="banner__titulo"> Bem vindo a Masmorra!</h1>
+                </section>
+                <section class="tags">
+                    <p class="tags__titulo">Busque por tags:</p>
+                    <ul class="tags__lista">
+                        <li class="tags__tag">Monstro</li>
+                        <li class="tags__tag">NPC</li>
+                        <li class="tags__tag">Chefão</li>
+                    </ul>
+                </section>
+                <section class="galeria">
+                    <div class="cards">
+                        <h2 class="cards__titulo">Navegue pelo bestiário</h2>
+                        <ul class="cards__lista">
+                            <li class="card">
+                                <a href="imagem.html">
+                                    <img class="card__imagem" src="{% static '/assets/imagens/galeria/tiamat.png' %}" alt="foto">
+                                </a>
+                                <span class="card__tag">Monstro</span>
+                                <div class="card__info">
+                                    <p class="card__titulo">Nome</p>
+                                    <div class="card__texto">
+                                        <p class="card__descricao">Descrição</p>
+                                        <span>
+                                            <img src="{% static '/assets/ícones/1x/favorite_outline.png' %}" alt="ícone de coração">
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card">
+                                <a href="imagem.html">
+                                    <img class="card__imagem" src="{% static '/assets/imagens/galeria/tiamat.png' %}" alt="foto">
+                                </a>
+                                <span class="card__tag">Monstro</span>
+                                <div class="card__info">
+                                    <p class="card__titulo">Nome</p>
+                                    <div class="card__texto">
+                                        <p class="card__descricao">Descrição</p>
+                                        <span>
+                                            <img src="{% static '/assets/ícones/1x/favorite_outline.png' %}" alt="ícone de coração">
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card">
+                                <a href="imagem.html">
+                                    <img class="card__imagem" src="{% static '/assets/imagens/galeria/tiamat.png' %}" alt="foto">
+                                </a>
+                                <span class="card__tag">Monstro</span>
+                                <div class="card__info">
+                                    <p class="card__titulo">Nome</p>
+                                    <div class="card__texto">
+                                        <p class="card__descricao">Descrição</p>
+                                        <span>
+                                            <img src="{% static '/assets/ícones/1x/favorite_outline.png' %}" alt="ícone de coração">
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card">
+                                <a href="imagem.html">
+                                    <img class="card__imagem" src="{% static '/assets/imagens/galeria/tiamat.png' %}" alt="foto">
+                                </a>
+                                <span class="card__tag">Monstro</span>
+                                <div class="card__info">
+                                    <p class="card__titulo">Nome</p>
+                                    <div class="card__texto">
+                                        <p class="card__descricao">Descrição</p>
+                                        <span>
+                                            <img src="{% static '/assets/ícones/1x/favorite_outline.png' %}" alt="ícone de coração">
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card">
+                                <a href="imagem.html">
+                                    <img class="card__imagem" src="{% static '/assets/imagens/galeria/tiamat.png' %}" alt="foto">
+                                </a>
+                                <span class="card__tag">Monstro</span>
+                                <div class="card__info">
+                                    <p class="card__titulo">Nome</p>
+                                    <div class="card__texto">
+                                        <p class="card__descricao">Descrição</p>
+                                        <span>
+                                            <img src="{% static '/assets/ícones/1x/favorite_outline.png' %}" alt="ícone de coração">
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card">
+                                <a href="imagem.html">
+                                    <img class="card__imagem" src="{% static '/assets/imagens/galeria/tiamat.png' %}" alt="foto">
+                                </a>
+                                <span class="card__tag">Monstro</span>
+                                <div class="card__info">
+                                    <p class="card__titulo">Nome</p>
+                                    <div class="card__texto">
+                                        <p class="card__descricao">Descrição</p>
+                                        <span>
+                                            <img src="{% static '/assets/ícones/1x/favorite_outline.png' %}" alt="ícone de coração">
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </div>
+    <footer class="rodape bg-gradient-to-br from-zinc-700 to-zinc-900">
+        <p class="rodape__texto">Template Desenvolvido por Alura e Editado por Lucas</p>
+    </footer>
+</body>
+
+</html>
